@@ -1,13 +1,7 @@
-## [project-title] Changelog
+## [azure-blockchain] Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+<a name="0.1.0"></a>
+# 0.1.0 (2019-22-04)
 
 *Features*
-* ...
-
-*Bug Fixes*
-* ...
-
-*Breaking Changes*
-* ...
+* Basic functionality
