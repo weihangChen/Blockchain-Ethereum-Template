@@ -1,5 +1,4 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const mnemonic = 'caught avoid mercy video supreme taxi domain escape fruit blanket neck kitten';
 const path = require('path');
 
 module.exports = {
