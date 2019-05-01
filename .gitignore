@@ -6,3 +6,6 @@ coverage
 
 # truffle
 build
+
+# environment variables
+.env
