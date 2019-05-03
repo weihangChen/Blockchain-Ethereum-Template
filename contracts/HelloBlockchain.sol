@@ -13,12 +13,16 @@ contract HelloBlockchain
     string public RequestMessage;
     string public ResponseMessage;
 
+    event StateChanged(string stateData);
+
     // constructor function
     constructor(string memory message) public
     {
         Requestor = msg.sender;
         RequestMessage = message;
         State = StateType.Request;
+
+        emit StateChanged('Request');
     }
 
     // call this function to send a request
@@ -41,5 +45,7 @@ contract HelloBlockchain
         // call ContractUpdated() to record this action
         ResponseMessage = responseMessage;
         State = StateType.Respond;
+
+        emit StateChanged('Response');
     }
 }
